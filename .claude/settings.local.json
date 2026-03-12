@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm --version)",
+      "Bash(npm info:*)",
+      "Bash(npm create:*)",
+      "Bash(echo \"EXIT: $?\")",
+      "Bash(npx create-vite@latest --template react-ts --yes -- .)",
+      "Bash(npm install:*)",
+      "Bash(npx tsc:*)",
+      "Bash(npx vite:*)",
+      "mcp__Claude_Preview__preview_start",
+      "mcp__Claude_in_Chrome__tabs_context_mcp",
+      "mcp__Claude_in_Chrome__navigate",
+      "Bash(curl -s http://localhost:5174)",
+      "Bash(cmd /c where npm)",
+      "Bash(cmd /c npm --version)",
+      "Bash(ls /c/Neumont/Q10/SoftEng/AI-Project/node_modules/.bin/vite*)"
+    ]
+  }
+}
